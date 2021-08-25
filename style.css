@@ -65,3 +65,14 @@ h1{
     background-color: greenyellow;
     color: honeydew;
 }
+
+@media screen (max-width: 250px){
+    .main{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+
+    .hobbies{
+        grid-area: 3/1/4/4;
+    }
+}
