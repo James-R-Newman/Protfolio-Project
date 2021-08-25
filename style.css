@@ -1,0 +1,22 @@
+.header{
+    margin:auto;
+    text-align: center;
+}
+
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+    display: grid;
+}
+
+.employement{
+    grid-template-columns: 33%;
+    grid-template-rows: auto;
+}
+
+.achievements{
+    grid-template-columns: 33%;
+    
+}
